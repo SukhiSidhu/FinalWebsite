@@ -1,0 +1,270 @@
+
+h1 img{
+    max-width: 100%; 
+}
+header img{
+    width: 100%;
+    position: relative;
+}
+
+nav a{
+    color: rgb(253, 250, 250);
+    text-decoration: none;
+    display: table-row
+}
+nav{
+    background-color: rgb(145, 84, 3);
+    border: 5px solid  rgb(145, 84, 3);
+
+}
+ul{
+    display: flexbox;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid white;
+
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    line-height: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-size: larger;
+    
+}
+
+
+a:hover{
+    background-color:rgb(90, 51, 2) ;
+    border-radius: 1.3em;
+    transition: color 0.3s ease-in-out;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+}
+a:hover{
+    background-color:rgb(90, 51, 2) ;
+    transition: color 0.3s ease-in-out;
+}
+body{
+    background: rgb(191, 180, 163);
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+
+}
+
+section img {
+float: left;
+max-width: 100%;
+width: 350px;
+height: 250px;
+padding-right: 30px;
+padding-left: 20px;
+padding-bottom: 19.92px;
+
+}
+
+section {
+ width: 32%;
+ float: left;
+ box-sizing: border-box;
+ padding: 0 10px;
+ overflow: hidden;
+ border: 2px dotted white;
+ margin-left: 5px;
+ margin-top: 20px;
+}
+
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 19.92px;
+    margin-top: 19.92px;
+    font-family: satisfy;
+    color: rgb(130, 56, 3);
+    text-align: center;
+}
+
+h4 {
+    font-size: 30px;
+    margin-bottom: 19.92px;
+    margin-top: 19.92px;
+    color: rgb(130, 56, 3);
+    font-family: satisfy;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(130, 56, 3);
+    font-family: satisfy;
+    text-align: center;
+}
+
+aside.food img {
+    width: 250px;
+    height: 150px;
+    max-width: 100%;
+    padding-left: 19%;
+    margin-bottom: 4%;
+ 
+}
+
+.footer {
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 50px;
+    background: rgb(118, 79, 1);
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  
+  .copyright {
+    color: #c47b05;
+    font-family: sans-serif;
+    font-size: larger * 0.7;
+    flex: 1;
+    padding-left: 15px * 2;
+  }
+  
+
+@media screen and (min-width: 200px) and (max-width: 480px){
+    
+    header{
+        padding: .25em;
+        text-align: center;
+    }
+    nav {
+        font-size: 1.3em;
+        width: 80%;
+        margin: 0 auto;
+    }
+    nav ul {
+        margin: 0;
+        padding: .1em;
+
+    }
+    nav li{
+        background-color: rgb(127, 77, 3);
+        border-radius: 1em;
+        list-style-type: none;
+        width: 100%;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    nav a{
+        padding: .8em;
+        display: inline-block;
+        width: 100%;
+    }
+    section {
+        display: inline-block;
+        padding:  0 4%;
+        vertical-align: middle;
+        -webkit-text-size-adjust: 100%;
+ 
+    }
+
+    a:hover{
+        background-color:rgb(90, 51, 2) ;
+        border-radius: 1.3em;
+        width: 85%;
+        transition: color 0.3s ease-in-out;
+    }
+
+    section{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 769px){
+    header{
+        padding: .6em;
+        text-align: center;
+    }
+    
+    nav {
+        font-size: 1.4em; 
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    nav li{
+        width: 100%;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+
+    }
+   
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+    }
+    .section.one, .section.two, .section.three{
+        width: 100%;
+    }
+    aside.food img {
+        width: 90%;
+        height: auto;
+        max-width: 90%;
+        padding: 5%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    h1 img{
+        max-width: 100%; 
+    }
+    header img{
+        width: 100%;
+        position: relative;
+    }
+    header{
+        text-align: center;
+        width: 100%;
+    }
+    
+    nav a{
+        color: rgb(253, 250, 250);
+        text-decoration: none;
+        display: block;
+    }
+    nav{
+        background-color: rgb(145, 84, 3);
+        border: 5px solid  rgb(145, 84, 3);
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        border: 2px solid white;
+    
+    }
+    
+    li{
+        display: inline-block;
+        width: 100px;
+        line-height: 2em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-variant: small-caps;
+        font-size: larger;
+    }
+    
+ 
+    
+}
+
+
+
